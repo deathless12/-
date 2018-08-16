@@ -18,7 +18,7 @@ body{
 }
 @keyframes bjpic{
 	100%{
-		background-position: -1920px 0;
+		background-position: 1920px 0;
 	}
 }
 .wk{
