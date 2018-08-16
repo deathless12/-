@@ -1,0 +1,371 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+ul li{
+	list-style: none;
+}
+body{
+	background: #0B0B0B;
+}
+.top{
+	width: 100%;
+	height: 90px;
+	background-color: #0b0b0b;
+}
+.middle{
+	width: 100%;
+	height: 870px;
+	/*background-color: #f40;*/
+}
+.foot{
+	width: 100%;
+	height: 134px;
+	background-color: #666;
+}
+.top-wrapper{
+	width: 1240px;
+	height: 90px;
+	margin: 0 auto;
+}
+.top-wrapper .logo{
+	width: 190px;
+	height: 100px;
+	display: inline-block;
+	position: relative;
+	z-index: 11;
+	float: left;
+}
+.top-wrapper .logo a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(./images/logo.png) 0 -30px;
+}
+.top-wrapper .top-nav{
+	width: 600px;
+	height: 90px;
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+.top-wrapper .top-nav .nav-1 li{
+	float: left;
+	width: 120px;
+	height: 90px;
+	text-align: center;
+}
+.top-wrapper .top-nav .nav-1 li a{
+	color: #fafafa;
+	font-size: 18px;
+	padding-top: 30px;
+	display: block;
+}
+.top-wrapper .top-nav .nav-1 li a span{
+	display: block;
+	width: 120px;
+	height: 20px;
+	font-size: 10px;
+	color: #838383;
+}
+.top-wrapper .top-nav .xiala{
+	width: 1240px;
+	height: 230px;
+	background-color: rgba(0,0,0,0.7);
+	position: absolute;
+	top: 78px;
+	left: -190px;
+	z-index: 3;
+	display: none;
+}
+.top-wrapper .top-nav:hover .xiala{
+	display: block;
+}
+.top-wrapper .top-nav .xiala .nav-2{
+	width: 1040px;
+	height: 190px;
+	margin-left: 187px; 
+	float: left;
+	padding-top: 10px;
+}
+.top-wrapper .top-nav .xiala .nav-2 li{
+	width: 120px;
+	height: 196px;
+	float: left;
+
+}
+.top-wrapper .top-nav .xiala .nav-2 li a{
+	display: block;
+	width: 120px;
+	height: 28px;	
+	color: #e1e1e1;
+	line-height: 28px;
+	text-align: center;
+	font-size: 14px;
+}
+.top-wrapper .top-nav .xiala .nav-2 li a:hover{
+	color: #dfb257;
+}
+.top-wrapper .top-nav .xiala .nav-2 li a .pic1{
+	width: 14px;
+	height: 14px;
+	background: url(./images/logo.png) -107px 0;
+	display: inline-block;
+}
+.top-wrapper .top-nav .xiala .nav-2 li a .pic2{
+	width: 14px;
+	height: 14px;
+	background: url(./images/logo.png) -129px 0;
+	display: inline-block;
+}
+.top-wrapper .chazhao{
+	width: 40px;
+	height: 90px;
+	margin-top: 3px;
+	float: left;
+	text-align: center;
+	line-height: 90px;
+}
+.top-wrapper .chazhao a{
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	background: url(./images/logo.png) -8px 0;
+}
+.top-wrapper .phone{
+	width: 40px;
+	height: 90px;
+	margin-left: 5px;
+	margin-top: 3px;
+	float: left;
+	text-align: center;
+	line-height: 90px;
+}
+.top-wrapper .phone a{
+	width: 21px;
+	height: 27px;
+	display: inline-block;
+	background: url(./images/logo.png) -45px 0;
+}
+.top-wrapper .log{
+	width: 340px;
+	height: 90px;
+	float: left;
+	position: relative;
+}
+.top-wrapper .log{
+	width: 340px;
+}
+.top-wrapper .log .pic3{
+	background: url(./images/logo.png) 0px -169px; 
+	position: absolute;
+	left: 13px;
+    top: 8px;
+    width: 74px;
+    height: 74px;
+	float: left;
+}
+.top-wrapper .log .pic3 .touxiang{
+	width: 50px;
+    height: 50px;
+    margin-left: 12px;
+    margin-top: 12px;
+    border-radius: 33px;  
+}
+.top-wrapper .log .desc{
+	width: 240px;
+	height: 68px;
+	float: right;
+	margin-top: 18px;
+}
+.top-wrapper .log .desc .desc-top{
+	width: 240px;
+	height: 20px;
+	color: #fff;
+	padding: 5px 0;
+	margin-left: 15px;
+}
+.top-wrapper .log .desc .desc-top a{
+	color: #dfb257;
+	/*text-decoration:underline;*/
+}
+.top-wrapper .log .desc .desc-bottom{
+	color: #999;
+    font-size: 12px;
+    margin-left: 15px;
+}
+.top-wrapper .log .log-xiala{
+	width: 350px;
+	height: 115px;
+	position: absolute;
+	top: 80px;
+	background: rgba(27,27,27,0.9);
+	display: none;
+	z-index: 11;
+}
+.top-wrapper .log .log-xiala .xiala-top{
+	width: 290px;
+	height: 39px;
+	text-align: left;
+    color: #868686;
+    font-size: 14px;
+    padding: 10px 30px 30px;
+
+}
+.top-wrapper .log .log-xiala .xiala-middle{
+	font-size: 12px;
+    color: #999;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+.top-wrapper .log .log-xiala .xiala-bottom{
+	clear: both;
+    display: block;
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: #161413;
+    text-align: center;
+}
+.top-wrapper .log .log-xiala .xiala-bottom a{
+	color: #e0e0e0;
+    font-size: 12px;
+}
+.top-wrapper .log:hover .log-xiala{
+	display: block;
+}
+.middle{
+	width: 100%;
+	height: 870px;
+	position: relative;
+	top: -10px;
+	z-index: 2;
+}
+.middle .bgvideo{
+	position: absolute;
+	top: 1px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.middle .bofang{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	z-index: 4;
+	margin: 135px 0 0 -24px;
+	width: 47px;
+	height: 55px;
+	background: url(./images/logo2.png) 0-58px; 
+}
+.middle .bofang:hover{
+	transition: all 1s;
+	transform: scale(1.3);
+}
+.middle .btn{
+	width: 100%;
+	height: 53px;
+	position: absolute;
+	bottom: 58px;
+	z-index: 4;
+	text-align: center;
+}
+.middle .btn a .btn-kuang{
+	width: 173px;
+	height: 53px;
+	display: inline-block;
+	background: url(./images/logo2.png) 0 0;
+	background-repeat: no-repeat;
+	text-align: center;
+	color: #fff;
+    font-size: 14px;
+    line-height: 46px;
+    margin-right: 10px;
+}
+.middle .btn a .btn-kuang .img1{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: -3px;
+    margin-right: 6px;
+	background: url(./images/logo2.png) -98px -94px;	
+}
+.middle .btn a .btn-kuang .img2{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: -3px;
+    margin-right: 6px;
+	background: url(./images/logo2.png) -52px -94px;	
+}
+.middle .btn a .btn-kuang .img3{
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	vertical-align: -3px;
+    margin-right: 6px;
+	background: url(./images/logo2.png) -111px -58px;	
+}
+.middle .btn a .btn-kuang:hover{
+	transition: all .5s;
+	transform: translateY(-15px);
+	color: #93EBF8;
+}
+.middle .btn a .btn-kuang:hover .img1{
+	background: url(./images/logo2.png) -75px -94px;
+}
+.middle .btn a .btn-kuang:hover .img2{
+	background: url(./images/logo2.png) -134px -58px;
+}
+.middle .btn a .btn-kuang:hover .img3{
+	background: url(./images/logo2.png) -88px -58px;
+}
+.foot{
+	width: 100%;
+	height: 132px;
+	background: #0b0b0b;
+	position: relative;
+	top: -10px;
+	text-align: center;
+}
+.foot .last{
+	width: 1240px;
+	height: 72px;
+	padding: 30px 0;
+	margin: 0 auto;
+}
+.foot .last-top{
+	width: 1240px;
+	height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #666; 
+    font-size: 10px; 
+}
+.foot .last-top a{
+	color: #6e6e6e;
+	font-size: 10px;
+}
+.foot .last-middle{
+	width: 1240px;
+	height: 24px;
+    line-height: 24px;
+    text-align: center;
+	color: #6e6e6e;
+	font-size: 10px;
+}
+.foot .last-bottom{
+	width: 1240px;
+	height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.foot .last-bottom a{
+	color: #6e6e6e;
+	font-size: 10px;
+}

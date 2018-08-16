@@ -1,0 +1,61 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration: none;
+}
+.X-dangsearch{
+	width:100%;
+	height:52px;
+	position:fixed;
+	top:0;
+	left: 0;
+	background-color: rgba(229,27,41,0.9);
+	z-index: 1000;
+	display: none;
+}
+.X-dangsearch .X-dangbox{
+	width: 1200px;
+	height:52px;
+	clear:both;
+	overflow: hidden;
+	margin: 0 auto;
+}
+.X-dangsearch .X-dangbox .danglogo{
+	width:210px;
+	height: 46px;
+	overflow: hidden;
+	float: left;
+	padding:6px 0 0;
+}
+.X-dangsearch .X-dangbox .sousuo{
+	float:left;
+	width:738px;
+	height:32px;
+	overflow: hidden;
+	background-color: #fff;
+	font: 14px/32px "Microsoft YaHei";
+	margin-top: 9px;
+	padding-left: 10px;
+	position: relative;
+}
+.X-dangsearch .X-dangbox .sousuo input{
+	width: 700px;
+	height:32px;
+	border:0;
+	line-height: 32px;
+	background-color: #fff;
+	color:#666;
+	outline: none;
+}
+.X-dangsearch .X-dangbox .sousuo a{
+	position:absolute;
+	right: 0;
+	top:0;
+	width:32px;
+	height:32px;
+	line-height: 32px;
+	overflow: hidden;
+	background:url(images/home_sprite_1511.png) no-repeat 0px -250px;
+	font-size: 0;
+}

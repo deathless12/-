@@ -1,0 +1,403 @@
+*{
+	margin: 0;
+	padding: 0;
+	color: #000;
+}
+a{
+	text-decoration: none;
+}
+.top{
+	width: 100%;
+}
+.head{
+	position: relative;
+	width: 1200px;
+	height: 86px;
+	margin: 0 auto;
+}
+.logo{
+	display: inline-block;
+	margin-top: 12px;
+	width: 270px;
+	height: 60px;
+	background: url(./images/DangDanglogo.gif);
+	background-size: 270px 100%;
+}
+.gaijin{
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	bottom: 15px;
+	font-size: 13px;
+	color: #787878;
+}
+.shuxie{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: url(./images/shuxie.jpg);
+	background-size: 20px 100%;
+	vertical-align: middle;
+}
+.body{
+	/*position: relative;*/
+	width: 100%;
+	border-bottom: 1.5px solid #ebebeb;
+	/*height: 590px;*/
+	/*background: url(./images/haibao.jpg) no-repeat center center;*/
+}
+.body1{
+	width: 1200px;
+	height: 590px;
+	margin: 0 auto;
+	position: relative;
+	background: url(./images/haibao.jpg) no-repeat center center;
+}
+.dianji{
+	position: absolute;
+	top: 85px;
+	left: 5px;
+	display: inline-block;
+	width: 655px;
+	height: 415px;
+}
+.input{
+	width: 370px;
+	height: 457px;
+	display: inline-block;
+	float: right;
+	margin-top: 66px;/*
+	background-color: red;*/
+}
+.tishi{
+	/*width: 338px;*/
+	height: 24px;
+	line-height: 24px;
+	font-size: 13px;
+	border:1px solid #fedbd1;
+	background-color: #fef7f5;
+}
+.tishi a{
+	color: #1a66b3;
+}
+.tishi a:hover{
+	text-decoration: underline;
+}
+.input1{
+	width: 368px;
+	height: 483px;
+	border:1px solid #eef2f4;
+}
+.p{
+	width: 368px;
+	height: 65px;
+}
+.p p{
+	float: left;
+	margin-top: 20px;
+	line-height: 2em;
+	font-size: 18px;
+	margin-left: 20px;
+}
+.yanzheng{
+	/*width: 228px;
+	height: 69px;*/
+	width: 181px;
+	height: 55px;
+	background: url(./images/saomadenglu.jpg);
+	background-size: 181px 100%;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+.form{
+	width: 368px;
+	text-align: center;
+}
+.box1,.box2{
+	width: 300px;
+	height: 70px;/*
+	background-color: red;*/
+	margin-left: 30px;
+}
+.text,.password{
+	display: inline-block;
+	width: 300px;
+	height: 34px;
+	line-height: 34px;
+	border:1px solid #e6e6e6;
+}
+.text:focus{
+	border:1px solid #000;
+	outline: none;
+}
+.text:focus+.tip1{
+	display: block;
+}
+.password:focus{
+	border:1px solid #e6e6e6;
+	outline: none;
+}
+.password:focus+.tip2{
+	display: block;
+}
+.tip1,.tip2{
+	font-size: 13px;
+	display: none;
+	margin-left: -80px;
+}
+.yanzheng0 span:first-child{
+	margin-right: 40px;
+	line-height: 2em;
+	font-size: 14px;
+}
+
+.genghuan a{
+	color: #1a66b3;
+}
+.genghuan a:hover{
+	text-decoration: underline;
+}
+.tupian1,.tupian2,.tupian3,.tupian4{
+	float: left;
+}
+.tupian1{
+	margin-left: 36px;
+}
+.tupian1 a{
+	display: block;
+	width: 74px;
+	height: 74px;
+	background: url(./images/yanzheng.jpg) 0 0;
+}
+.tupian2 a{
+	display: block;
+	width: 74px;
+	height: 74px;
+	background: url(./images/yanzheng.jpg) -74px 0;
+}
+.tupian3 a{
+	display: block;
+	width: 74px;
+	height: 74px;
+	background: url(./images/yanzheng.jpg) -148px 0;
+}
+.tupian4 a{
+	display: block;
+	width: 74px;
+	height: 74px;
+	background: url(./images/yanzheng.jpg) -222px 0;
+}
+.yanzheng0::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/*.duoxuan,.qitian{
+	float: left;
+}*/
+.tupian-last{
+	margin-top: 15px;
+}
+.qitian{
+	display: inline-block;
+	font-size: 13px;
+}
+.wangji{
+	margin-left: 140px;
+}
+.wangji a{
+	font-size: 13px;
+	color: #1a66b3;
+}
+.wangji a:hover{
+	text-decoration: underline;
+}
+.submit{
+	margin-top: 10px;
+	color: #fff;
+	display: inline-block;
+	width: 309px;
+	height: 42px;
+	/*line-height: 34px;*/
+	background-color: red;
+	border:1px solid red;
+	border-radius: 5px;
+	font-size: 18.5px;
+}
+.hezuozhuce{
+	width: 309px;
+	height: 24px;
+	line-height: 24px;
+	margin: 0 auto;
+	margin-top: 7px;
+}
+.hezuo{
+	font-size: 13px;
+	color: #6e6e6e;
+}
+.zhuce{
+	margin-left: 140px;
+}
+.zhuce a{
+	font-size: 13px;
+	color: #6e6e6e;
+}
+.zhuce a:hover{
+	text-decoration: underline;
+}
+.hezuopingtai{
+	width: 309px;
+	height: 25px;
+	margin: 0 auto;
+}
+.hezuopingtai span:first-child{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(./images/qq.jpg);
+	background-size: 25px 100%;
+	vertical-align: middle;
+}
+.hezuopingtai span:nth-child(2){
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(./images/wx.jpg);
+	background-size: 25px 100%;
+	vertical-align: middle;
+}
+.hezuopingtai span:nth-child(3){
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(./images/wb.jpg);
+	background-size: 25px 100%;
+	vertical-align: middle;
+}
+.hezuopingtai span:nth-child(4){
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	background: url(./images/zfb.jpg);
+	background-size: 25px 100%;
+	vertical-align: middle;
+}
+.hezuopingtai span:last-child{
+	font-size: 13px;
+	margin-left: 7px;
+}
+.foot{
+	margin-top: 30px;
+}
+.foot1{
+	width: 960px;
+	height: 20px;
+	margin: 0 auto;
+}
+.foot1 ul{
+	width: 700px;
+	height: 16px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.foot1 ul>*{
+	float: left;
+	list-style: none;
+}
+.foot1 ul span{
+	color: #8c8c8c;
+	margin: 0 15px;
+}
+.foot1 ul li a{
+	font-size: 12px;
+	color: #8c8c8c;
+}
+.foot1 ul li a:hover{
+	color: pink;
+}
+.foot2{
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 12px;
+	color: #8c8c8c;
+	line-height: 30px;
+}
+.foot3{
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.foot3 span{
+	font-size: 12px;
+	color: #8c8c8c;
+}
+
+.foot3 span:nth-child(2){
+	margin:0 10px;
+}
+.foot3 span:nth-child(4){
+	margin:0 10px;
+}
+.foot3 span a{
+	font-size: 12px;
+	color: #8c8c8c;
+}
+.foot span a:hover{
+	color:pink;
+	text-decoration: underline;
+}
+.foot4{
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	line-height: 25px;
+}
+.foot4 span{
+	font-size: 12px;
+	color: #8c8c8c;
+}
+.foot4 span:nth-child(2){
+	margin:0 10px;
+}
+.foot4{
+	width: 960px;
+	margin: 0 auto;
+}
+.foot5{
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+.foot5 span{
+	display: inline-block;
+}
+.foot5 span:first-child a{
+	width: 128px;
+	height: 47px;
+	display: inline-block;
+	margin-top: 20px;
+	background: url(./y-images/1.gif)
+}
+.foot5 span:nth-child(2){
+	margin: 0 20px;
+}
+.foot5 span:nth-child(2) a{
+	width: 128px;
+	height: 47px;
+	display: inline-block;
+	margin-top: 20px;
+	background: url(./y-images/2.gif)
+}
+.foot5 span:nth-child(3) a{
+	width: 128px;
+	height: 47px;
+	display: inline-block;
+	margin-top: 20px;
+	background: url(./y-images/3.png)
+}

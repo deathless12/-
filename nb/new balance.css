@@ -1,0 +1,404 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	font:normal normal normal "微软雅黑","microsoft YaHei" ;
+	color: #000;
+}
+ul li{
+	list-style: none;
+}
+.nav1{
+	width: 100%;
+	background: #000;
+}
+.nav1 .topzi{
+	width: 380px;
+	height: 38px;
+	line-height: 37px;
+	float: left;
+	margin-left: 39%;
+}
+.nav1 .topzi a{
+	color: #fff;
+	font-weight: 300;
+	font-size: 17px;
+}
+.nav1 .topzi a span{
+	text-decoration: underline;
+}
+.nav1-right{
+	height: 35px;
+	float: right;
+	line-height: 35px;
+}
+.nav1-right .store .shu{
+	color: #f7f7f7;
+}
+.nav1-right a .pic3{
+	vertical-align: -7px;
+}
+.nav1-right a .pic4{
+	vertical-align: middle;
+}
+.nav1-right .store-zi{
+	color: #f7f7f7;
+	font-size: 13px;
+}
+.nav1::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.nav2{
+	width: 100%;
+	background: #fff;
+}
+.logo{
+	width: 86px;
+	height: 44px;
+	margin-top: 6px;
+	float: left;
+}
+.liebiao{
+	width: 570px;
+	height: 56px;
+	float: left;
+	margin-left: 40px;
+}
+.liebiao ul li{
+	float: left;
+	height: 56px;
+	line-height: 56px;
+}
+.liebiao ul li:first-child{
+	
+}
+.liebiao ul li a{
+	display: block;
+	padding: 0 12px;
+}
+.liebiao ul li a:hover{
+	color: #e21836;
+}
+.liebiao ul li a h3{
+	font-weight:600;
+}
+.nav2-r{
+	float: right;
+	width: 680px;
+	height: 56px;
+}
+.nav2-r .search{
+	width: 370px;
+	height: 43px;
+	float: left;
+	border: 1px solid #e5e5e5;
+	margin-top: 6.5px;
+	line-height: 43px;
+}
+.nav2-r .search .sousuo{
+	width: 303px;
+	height: 18px;
+	line-height: 18px;
+	border: none;
+	outline: none;
+	padding: 5px 10px;
+	position: relative;
+}
+.nav2-r .search .r-button{
+	width: 40px;
+	height: 42px;
+	padding: 1px;
+	border: none;
+	background: #fff;
+	vertical-align: top;
+}
+.nav2-r .log{
+	width: 296px;
+	height: 56px;
+	float: right;
+	line-height: 56px;
+}
+.nav2-r .log a:hover{
+	color:#e21836; 
+}
+.nav2-r .log .denglu{
+	height: 47px
+	line-height:47px;
+	display: inline-block;
+}
+.nav2-r .log .denglu a{
+	display: inline-block;
+}
+.nav2-r .log .denglu .touxiang{
+	vertical-align: middle;
+}
+.nav2-r .log .gouwuche{
+	height: 47px;
+	margin-left: 10px;
+	display: inline-block;
+}
+.nav2-r .log .gouwuche .gouwuchepic{
+	vertical-align: -9px;
+}
+.nav2-r .log .gouwuche span{
+	font-size: 14px;
+}
+.nav2::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.nav3{
+	width: 100%;
+}
+.nav3 .duli{
+	position: relative;
+	width: 100%;
+	height: 475px;
+	display: block;
+	background: url(./images/duli.jpg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.nav4{
+	width: 100%;
+	background-color: #EFEFEF;
+}
+.nav4 .nav4-menu{
+	width: 900px;
+	height: 120px;
+	padding: 0 150px;
+	margin: 0 auto;
+}
+.nav4 .nav4-menu li{
+	width: 222.5px;
+	height: 72px;
+	padding: 10px 0;
+	float: left;
+	margin-top: 14px;
+	text-align: center;
+}
+.nav4 .nav4-menu li a{
+	display: inline-block;
+	margin-top: 12px;
+}
+.nav4 .nav4-menu li a span{
+	font-size: 14px;
+	font-weight: 300;
+}
+.nav4 .nav4-menu li a h3{
+	font-weight: bold;
+}
+.nav5{
+	width: 100%;
+}
+.nav5 .nav5pic{
+	width: 1200px;
+	height: 350px;
+	margin: 0 auto;
+	background-image: url(./images/pic5.jpg);
+	background-size: auto 100%;
+	background-position: center;
+}
+.nav6{
+	width: 100%;
+	margin-top: 5px;
+}
+.nav6pic{
+	width: 1200px;
+	height: 508px;
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+.nav6 .nav6-l{
+	width: 593px;
+	height: 510px;
+}
+.nav6 .nav6-l .lpic a{
+	display: block;
+	width: 593px;
+	height:339px; 	
+}
+.nav6 .nav6-l .lpic .lpic1{
+	background: url(./images/pic6.jpg);
+	background-size: cover;
+}
+.nav6 .nav6-l .lpic .rpic1{
+	background-image: url(./images/pic7.jpg);
+	background-size: cover;
+}
+
+.nav6 .nav6-l .ldesc .ltop,.lxia{
+	text-align: center;
+}
+.nav6 .nav6-l .ldesc .ltop p{
+	margin-top: 10px;
+}
+.nav6 .nav6-l .ldesc .ltop .lxiao{
+	font-size: 13px;
+}
+.nav6 .nav6-l .ldesc .ltop .lda{
+	font-weight: 700;
+	font-size: 19px;
+}
+.nav6 .nav6-l .ldesc .lxia p a{
+	color: #f00;
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.nav6 .nav6-l .ldesc .lxia p a:hover{
+	color: #000;
+}
+.nav6 .nav6-l .lpic .lpic2{
+	background: url(./images/pic8.jpg);
+	background-size: cover;
+}
+.nav6 .nav6-l .lpic .rpic2{
+	background-image: url(./images/pic9.jpg);
+	background-size: cover;
+}
+.nav6 .nav6-l .lpic .lpic3{
+	background: url(./images/pic10.jpg);
+	background-size: cover;
+}
+.nav6 .nav6-l .lpic .rpic3{
+	background-image: url(./images/pic11.jpg);
+	background-size: cover;
+}
+.nav9{
+	width: 100%;
+}
+.nav9 .pic12{
+	width: 100%;
+	height: 475px;
+	display: block;
+	background: url(./images/pic12.jpg);
+	background-size: auto 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.nav10{
+	width: 100%;
+	background-color: #232323;
+	border-bottom: 1px solid #333;
+}
+.tenth{
+	width: 960px;
+	height: 70px;
+	margin: 0 auto;
+	text-align: center;
+}
+.nav10l,.nav10r{
+	display: inline-block;
+	width: 200px;
+	height: 70px;
+	line-height: 70px;
+}
+.nav10l{
+	margin-right: 40px;
+}
+.nav10l a,.nav10r a{
+	color: #f7f7f7;
+}
+.tenth div a span{
+	vertical-align: -15px;
+}
+
+.nav11{
+	width: 100%;
+	background: #232323;
+	border-bottom: 1px solid #333;
+}
+.nav11 .help .first{
+	width: 960px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.nav11 .help .first .firstli{
+	flex: 1;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: left;
+}
+.nav11 .help .first li span{
+	color: #fff;
+}
+
+.nav11 .help .first .firstli .second{
+	margin-top: 20px;
+}
+.nav11 .help .first .firstli .second li{
+	margin-top: 10px;
+}
+.nav11 .help .first .firstli .second li a{
+	font-size: 14px;
+	color: #f8f8f8;
+}
+.nav11 .help .first .firstli .second li a:hover{
+	color: #e21836;
+}
+.nav11 .help .first .firstli .second li .pic15{
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	background-image: url(./images/pic15.png);
+}
+.nav11 .help .first .firstli .second li .pic16{
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	background-image: url(./images/pic16.png);
+}
+.nav11 .help .first .firstli .second .kefu{
+	font-size: 14px;
+	color: #f8f8f8;
+}
+.nav11 .help .first .firstli .second li .pic15:hover{
+	background-image: url(./images/pic17.png);
+}
+.nav11 .help .first .firstli .second li .pic16:hover{
+	background-image: url(./images/pic18.png);
+}
+.nav12{
+	width: 100%;
+	background: #232323;
+}
+.nav12 .lasttop{
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
+}
+.nav12 .lasttop span{
+	color: #999;
+	font-size: 11px;
+}
+.nav12 .lasttop a{
+	color: #f7f7f7;
+	font-size: 11px;
+	margin-right: 15px;
+}
+.nav12 .lasttop a img{
+	vertical-align: middle;
+}
+.nav12 .lastbottom{
+	text-align: center;
+	color: #999;
+	font-size: 13px;
+	padding-bottom: 30px;
+}
+.nav12 .lastbottom span{
+	color: #999;
+	font-size: 11px;
+	margin-left: 8px;
+}
+.nav12 .lasttop a:hover{
+	color:#e21836; 
+}
