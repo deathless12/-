@@ -167,7 +167,7 @@
 		</div>
 	</div>
 	<div class="middle">
-		<video src="images/lol.mp4" autoplay="" loop="" muted="" poster="./images/ruizi.jpg" class="bgvideo"></video>
+		<video src="images/lol.mp4"  loop=""  poster="./images/ruizi.jpg" class="bgvideo"  autoplay=""></video>
 		<a href="#" class="bofang" title="播放完整视频"></a>
 		<div class="btn">
 			<a href="#">
@@ -193,14 +193,14 @@
 	<div class="foot">
 		<div class="last">
 			<div class="last-top">
-				<a href="#">腾讯互动娱乐</a> &nbsp|&nbsp
-				<a href="#">服务条款</a> &nbsp|&nbsp
-				<a href="#">隐私政策</a> &nbsp|&nbsp
-				<a href="#">腾讯游戏招聘</a> &nbsp|&nbsp
-				<a href="#">腾讯游戏客服</a> &nbsp|&nbsp
-				<a href="#">游戏地图</a> &nbsp|&nbsp
-				<a href="#">成长守护平台</a> &nbsp|&nbsp
-				<a href="#">商务合作</a> &nbsp|&nbsp
+				<a href="#">腾讯互动娱乐</a> &nbsp;|&nbsp;
+				<a href="#">服务条款</a> &nbsp;|&nbsp;
+				<a href="#">隐私政策</a> &nbsp;|&nbsp;
+				<a href="#">腾讯游戏招聘</a> &nbsp;|&nbsp;
+				<a href="#">腾讯游戏客服</a> &nbsp;|&nbsp;
+				<a href="#">游戏地图</a> &nbsp;|&nbsp;
+				<a href="#">成长守护平台</a> &nbsp;|&nbsp;
+				<a href="#">商务合作</a> &nbsp;|&nbsp;
 				<a href="#">网站导航</a>
 			</div>
 			<div class="last-middle">
@@ -211,5 +211,27 @@
 			</div>
 		</div>
 	</div>
+	<script>
+		var bgvideo = document.getElementsByClassName("bgvideo")[0];
+		var bofang = document.getElementsByClassName("bofang")[0];
+		function abo() {
+			bofang.onclick = function () {
+				if (bgvideo.muted){
+					bgvideo.muted = "false";
+				}else{
+
+					bgvideo.muted = "true";
+				}
+			}
+			bgvideo.onclick = function () {
+				if (bgvideo.paused){
+					bgvideo.play();
+				}else{
+					bgvideo.pause()
+				}
+			}
+		}
+		abo();
+	</script>
 </body>
 </html>

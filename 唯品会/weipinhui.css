@@ -23,6 +23,7 @@ ul li{
 .start .start-nav .nav-l{
 	width: 86px;
 	height: 28px;
+	border: 1px solid #f5f5f5;
 	float: left;
 	position: relative;
 }
@@ -42,6 +43,10 @@ ul li{
 	border-bottom: none;
 	background-color: #fff;
 }
+.start .start-nav .nav-l:hover .xsj{
+	border-color: transparent transparent #F10180 transparent;
+	vertical-align: 4px;
+}
 .start .start-nav .nav-l .nav-zi{
 	width: 40px;
 	height: 28px;
@@ -60,7 +65,7 @@ ul li{
     height: 0;
     border-width: 4px;
     border-color: #999 transparent transparent transparent;
-    border-style: solid dashed dotted dashed;
+    border-style: solid ;
     vertical-align: middle;
 }
 .start .start-nav .nav-l .nav-xiala-l{
@@ -172,21 +177,21 @@ ul li{
 	line-height: 28px;
 	position: relative;
 	text-align: center;
-	border: 1px solid #f5f5f5;
-	
-	z-index: 66;
+	border: 1px solid transparent;
+	padding: 0 5px;
 }
 .start .start-nav .nav-r>li>a{
 	font-size: 14px;
 	display: inline-block;
-	padding: 0 5px;
+	padding: 0 8px;
 }
- .start .start-nav .nav-r>li::after{
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-	content: "";
-	background: url(./images/pic1.png) -246px -184px;
+ .start .start-nav .nav-r>li:not(:last-child)::after{
+	position: absolute;
+    content: "/";
+    right: -7px;
+    top: 0;
+    font-weight: 100;
+    color: #cfcece;
 	vertical-align: middle;
 }
 .start .start-nav .nav-r li .phone{
@@ -195,18 +200,26 @@ ul li{
 	height: 14px;
 	background: url(./images/pic1.png) -294px -142px;
 }
+.start .start-nav .nav-l .nav-xiala-l .city2 ul>li
 .start .start-nav .nav-r>li:last-child::after{
 	display: none;
 }
 .nav-r>li>a:hover{
 	color: #F10180;
 }
-/*.start .start-nav .nav-r>.temai{
-	width: 95px;*/
-/*	height: 28px;
-
+.start .start-nav .nav-r li:nth-child(6):hover .xsj{
+	border-color: transparent transparent #F10180 transparent;
+	vertical-align: 4px;
 }
-.start .start-nav .nav-r>.temai:hover .temaixaila{
+.start .start-nav .nav-r li:nth-child(7):hover .xsj{
+	border-color: transparent transparent #F10180 transparent;
+	vertical-align: 4px;
+}
+.start .start-nav .nav-r li:last-child:hover .xsj{
+	border-color: transparent transparent #F10180 transparent;
+	vertical-align: 4px;
+}
+.start .start-nav .nav-r>.temai:hover .temaixiala{
 	display: block;
 }
 .start .start-nav .nav-r>.temai:hover{
@@ -214,18 +227,22 @@ ul li{
 	background: #fff;
 	border-bottom: none;
 }
-.start .start-nav .nav-r>.temai>i{
+.start .start-nav .nav-r>.temai:hover::after{
 	width: 95px;
 	height: 2px;
 	position: absolute;
-	bottom: -2px;
+	top: 27px;
 	left: 0;
 	overflow: hidden;
-	background:#fff;
-	background-image: none;
-	display: inline-block;
+	content: "";
+	/*display: inline-block;*/
+	background-color: #fff;
 }
-.start .start-nav .nav-r .temaixaila{
+.start .start-nav .nav-r>.temai:hover .xsj{
+	border-color: transparent transparent #F10180 transparent;
+	vertical-align: 4px;
+}
+.start .start-nav .nav-r .temaixiala{
 	width: 120px;
 	position: absolute;
 	top: 27px;
@@ -235,13 +252,14 @@ ul li{
 	display: none;
 
 }
-.start .start-nav .nav-r .temaixaila>ul>li{
+.start .start-nav .nav-r .temaixiala>ul>li{
 	padding: 5px;
 	color: #333;
+	text-align: left;
 }
-.start .start-nav .nav-r .temaixaila>ul>li:hover{
+.start .start-nav .nav-r .temaixiala>ul>li:hover{
 	color: #F10180;
-}*/
+}
 /*start结束*/
 .head{
 	width: 100%;

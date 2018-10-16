@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>魔方旋转</title>
+	<style>
+		.box{
+			position: relative;
+			width: 360px;
+			height: 360px;
+			margin: 120px auto;
+			transform-style: preserve-3d;
+			transform: rotateX(30deg) rotateY(60deg);
+			transform-origin: center center;
+			animation:myanimation 10s 0s infinite linear alternate none;
+		}
+		@keyframes myanimation{
+			0%{
+				transform: /*translate3d(200px,200px,300px)*/ rotateX(0deg) rotateY(0deg) ;
+			}
+			25%{
+				transform:/*translate3d(500px,500px,300px)*/ rotateX(-34deg) rotateY(50deg);
+			}
+			50%{
+				transform:/*translate3d(-500px,-200px,200px)*/ rotateX(-142deg) rotateY(112deg);
+			}
+			75%{
+				transform:/*translate3d(100px,500px,-200px)*/ rotateX(-226deg) rotateY(200deg);
+			}
+			100%{
+				transform:/*translate3d(100px,50px,0)*/ rotateX(-360deg) rotateY(360deg);
+			}
+		}
+		.box:hover{
+			animation-play-state: paused;
+		}
+		.box div{
+			position: absolute;
+			/*top: 0;
+			left: 0;*/
+			width: 360px;
+			height: 360px;
+			
+			color: red;
+			font-size: 50px;
+		}
+		.one{
+			transform: translateZ(180px);
+			background: rgba(237,13,80,0.5);
+		}
+		.two{
+			transform:translateX(180px) rotateY(90deg) ;
+			background: rgba(21,21,227,0.5);
+		}
+		.three{
+			transform:translateX(-180px)rotateY(90deg);
+			background: rgba(46,237,59,0.5);
+		}
+		.four{
+			transform: translateY(180px) rotateX(90deg);
+			background: rgba(242,247,46,0.5);
+		}
+		.five{
+			transform:translateY(-180px) rotateX(90deg) ;
+			background: rgba(183,59,15,0.5);
+		}
+		.six{
+			transform: translateZ(-180px);
+			background: rgba(242,21,245,0.5);
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div clas class="one"></div>
+		<div class="two"></div>
+		<div class="three"></div>
+		<div class="four"></div>
+		<div class="five"></div>
+		<div class="six"></div>
+	</div>
+</body>
+</html>

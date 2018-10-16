@@ -1,0 +1,169 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color: #000;
+}
+.nav1{
+	width: 100%
+}
+.nav1-menu{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+}
+.nav1-1{
+	float: left;
+}
+.denglu{
+	float: left;
+	margin-left: 50px;
+	margin-top: 8px;	
+}
+.nav2{
+	width: 100%;
+	height: 512px;
+	margin: 0 auto;
+	background-color: #39A6EC;
+}
+.nav2-1{
+	float: left;
+	position: relative;
+	z-index: 100;
+}
+.img1{
+	width: 990px;
+	height: 512px;
+}
+.nav2-2{
+	position: absolute;
+	top: 100px;
+	right: 100px;
+	float: left;
+	width: 450px;
+	height: 410px;
+	z-index: 1000;
+	background-color: #fff;
+
+}
+.first{
+	width: 450px;
+	height: 50px;
+}
+.first-1{
+	text-align: center;
+	line-height: 48px;
+	float: left;
+	width: 223px;
+	height: 48px;
+	border: 1px solid #69b3f2;
+}
+.first1{
+	background-color: #88CAF4;
+}
+.first-2{
+	width: 28px;
+	height: 7px;
+	background-image: url(images/img3/icon.png);
+	background-position: -268px 0;
+	float: right;
+	position: relative;
+	right: 50px;
+	top: 10px;
+}
+.second{
+	width: 330px;
+	height: 44px;
+	border: 1px solid #939886;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 44px;
+}
+.tubiao1{
+	float: left;
+	width: 16px;
+	height: 16px;
+	background: url(images/img3/icon.png) -320px 0;
+	margin-top: 13px;
+}
+.mail{
+	padding: 0 10px;
+	float: left;
+	width: 240px;
+	height: 42px;
+	border: none;
+	outline: none;
+}
+.tubiao2{
+	float: left;
+	width: 17px;
+	height: 17px;
+	background: url(images/img3/icon.png) -320px -30px;
+	margin-top: 13px;
+}
+.shuai{
+	color: #939886;
+}
+.third{
+	width: 330px;
+	height: 16px;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 16px;
+}
+.second1{
+	width: 330px;
+	height: 44px;
+	border: 1px solid #939886;
+	margin: 0 auto;
+	margin-top: 20px;
+	text-align: center;
+	line-height: 44px;
+	background-color: #52b0fc;
+}
+.denglu1 a{
+	color: #fff;
+	font-weight: bold;
+}
+.fourth{
+	float: left;
+	width: 450px;
+	height: 18px;
+	margin-top: 20px;
+}
+.fourth-1{
+	width: 300px;
+	height: 16px;
+	margin: 0 auto;
+}
+.fourth ul li{
+	float: left;
+	margin-left: 6px;
+	color: #939886;
+	text-align: center;
+}
+.fourth ul li:first-child{
+	margin-left: 25px;
+}
+.fourth ul li a{
+	font-size: 13px;
+	color: #406EBA;
+}
+.fourth ul li a:hover{
+	color: #f40;
+}
+.nav3{
+	width: 100%;
+}
+.last{
+	width: 1519.2px;
+	height: 158px;
+	margin: 0 auto;
+}
+.foot{
+	width: 1519.2px;
+
+}
