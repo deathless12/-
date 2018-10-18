@@ -463,7 +463,7 @@ $(function () {
     });
     function zixunXianshi() {
         var obj = {
-            page:16,
+            page:2,
             pageSize:10
         }
         $.get("http://120.78.164.247:8099/manager/article/findArticle",obj,function(results){
